@@ -17,26 +17,23 @@ const homePage = (containerTag) => {
     bodyContainer.id = "homepage-container";
 
     const div1 = document.createElement("div");
-    div1.innerHTML = `<p><font size="+2"><strong>Opening hours</strong></font></p>
-                      <p>Sunday: 10am - 9pm</p>
-                      <p>Monday: 8am - 8pm</p>
+    div1.innerHTML = `<p style="text-align:center"><font size="+2"><strong>Opening hours</strong></font></p><br>
                       <p>Tuesday: CLOSED</p>
-                      <p>Wed: 8am - 8pm</p>
-                      <p>hursday: 8am - 8pm</p>
-                      <p>Friday: 8am - 8pm</p>
+                      <p>Mon to Fri: 8am - 8pm</p>
+                      <p>Saturday: 10am - 9pm</p>
                       <p>Sunday: 10am - 9pm</p>`
     div1.id = "body-item1";
 
     const div2 = document.createElement("div");
-    div2.innerHTML = `<p><font size="+2"><strong>Our Story</strong></font></p>
-                      <p>Piccolo mondo came to life with the intention of recreating a small, cozy world where we can welcome our customers.</p>`
+    div2.innerHTML = `<p style="text-align:center"><font size="+2"><strong>Our Story</strong></font></p><br>
+                      <p style="text-align:center">Piccolo mondo came to life with the intention of recreating a small, cozy world where we can welcome our customers.</p>`
     div2.id = "body-item2";
 
     const div3 = document.createElement("div");
-    div3.innerHTML = `<p><font size="+2"><strong>Address</strong></font></p><br>
-                      <p>Durian Orchard</p>
-                      <p>23 Palau Ubin Road</p>
-                      <p>Singapore</p>`
+    div3.innerHTML = `<p style="text-align:center"><font size="+2"><strong>Address</strong></font></p><br>
+                      <p style="text-align:center">Durian Orchard</p>
+                      <p style="text-align:center">23 Palau Ubin Road</p>
+                      <p style="text-align:center">Singapore</p>`
 
     div3.id = "body-item3";
 
